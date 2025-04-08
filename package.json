@@ -1,24 +1,19 @@
 {
-  "name": "metromemory", // Or choose a simple name for your project
-  "version": "0.1.0",   // Standard starting version
-  "private": true,      // Recommended for applications not meant to be published
-  "description": "NYC Subway Memory Game built with Next.js", // Optional description
+  "name": "metromemory", 
+  "version": "0.1.0",   
+  "private": true,      
+  "description": "NYC Subway Memory Game built with Next.js", 
   "scripts": {
-    "dev": "next dev",        // Runs the development server
-    "build": "next build",      // Creates the production build (this is the key one!)
-    "start": "next start",      // Starts a production server (less relevant for static export)
-    "lint": "next lint"       // Runs Next.js's code linter
+    "dev": "next dev",        
+    "build": "next build",     
+    "start": "next start",      
+    "lint": "next lint"      
   },
   "dependencies": {
-    "next": "^14.1.0",        // Use a recent version of Next.js (adjust if needed)
-    "react": "^18.2.0",       // Use a recent version of React (adjust if needed)
-    "react-dom": "^18.2.0",   // Use a recent version of React DOM (adjust if needed)
-
-    // --- ADD OTHER LIBRARIES YOUR PROJECT USES HERE! ---
-    // Look at the 'import' statements in your .js/.jsx/.ts/.tsx files.
-    // Examples (you might need different ones):
-    // "mapbox-gl": "^3.1.2",
-    // "some-other-library": "^1.2.3",
+    "next": "^14.1.0",      
+    "react": "^18.2.0",     
+    "react-dom": "^18.2.0", 
+    "mapbox-gl": "^3.1.2",
     "@react-google-maps/api": "^2.19.3",
     "@vis.gl/react-google-maps": "^0.8.3",
     "framer-motion": "^11.1.7",
@@ -27,13 +22,6 @@
 
   },
   "devDependencies": {
-    // Add development-only dependencies if you know them (e.g., TypeScript, ESLint)
-    // If you're not sure, you can leave this empty or add later.
-    // Examples:
-    // "typescript": "^5",
-    // "@types/react": "^18",
-    // "@types/node": "^20",
-    // "eslint": "^8",
-    // "eslint-config-next": "14.1.0"
+   
   }
 }
