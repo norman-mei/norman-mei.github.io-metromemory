@@ -43,6 +43,9 @@ jobs:
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
 
+      - name: List output directory contents # <-- ADD THIS STEP
+        run: ls -R ./out
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
